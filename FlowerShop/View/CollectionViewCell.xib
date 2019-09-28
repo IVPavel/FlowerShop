@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="FlowerShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AS5-PL-9Rq">
+                        <rect key="frame" x="50" y="0.0" width="274" height="120"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Амариллис" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="XRq-kK-Fbo">
+                                <rect key="frame" x="96" y="4" width="135" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="12k-ed-bzG"/>
+                                    <constraint firstAttribute="width" constant="135" id="tri-5e-Vau"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nIz-zN-wgD">
+                                <rect key="frame" x="96" y="41" width="146" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Амариллисы – роскошный цветок, который произрастает из луковицы. Амариллис гармонично сочетается со многими другими цветами, а также может смотреться гарнонично сам по себе.</string>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="10"/>
+                                <color key="textColor" red="0.6671740717557505" green="0.66395100860717193" blue="0.67039713490432895" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txm-kE-fcu">
+                                <rect key="frame" x="232" y="8" width="26" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="awc-x3-RDV"/>
+                                    <constraint firstAttribute="width" constant="26" id="wvc-Ba-WLZ"/>
+                                </constraints>
+                                <state key="normal" image="heart_grey"/>
+                                <connections>
+                                    <action selector="likeButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="GzM-xA-eoI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120 ₴" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iat-1Q-rcK">
+                                <rect key="frame" x="191" y="90" width="67" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="onR-03-rPu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98552296618752433" green="0.9807619856745412" blue="0.99028394670050757" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="txm-kE-fcu" secondAttribute="trailing" constant="16" id="6bW-gP-c8P"/>
+                            <constraint firstAttribute="bottom" secondItem="iat-1Q-rcK" secondAttribute="bottom" constant="6" id="H65-vG-MtP"/>
+                            <constraint firstItem="txm-kE-fcu" firstAttribute="top" secondItem="AS5-PL-9Rq" secondAttribute="top" constant="8" id="fX7-kq-L9g"/>
+                            <constraint firstAttribute="trailing" secondItem="iat-1Q-rcK" secondAttribute="trailing" constant="16" id="lpC-zR-YkZ"/>
+                            <constraint firstItem="XRq-kK-Fbo" firstAttribute="top" secondItem="AS5-PL-9Rq" secondAttribute="top" constant="4" id="qWF-5D-7xa"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plants" translatesAutoresizingMaskIntoConstraints="NO" id="m56-en-O1n">
+                        <rect key="frame" x="16" y="0.0" width="121" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="QwF-TK-EFY"/>
+                            <constraint firstAttribute="width" constant="121" id="hN7-bK-FPN"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="m56-en-O1n" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="8ll-6Y-fz1"/>
+                <constraint firstItem="m56-en-O1n" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="16" id="DoF-Z4-7dG"/>
+                <constraint firstAttribute="bottom" secondItem="AS5-PL-9Rq" secondAttribute="bottom" id="NHv-Dm-pz6"/>
+                <constraint firstItem="AS5-PL-9Rq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="QYx-03-VmX"/>
+                <constraint firstAttribute="bottom" secondItem="m56-en-O1n" secondAttribute="bottom" id="WD7-Q0-9eY"/>
+                <constraint firstItem="XRq-kK-Fbo" firstAttribute="leading" secondItem="m56-en-O1n" secondAttribute="trailing" constant="9" id="j00-LD-cy0"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="AS5-PL-9Rq" secondAttribute="trailing" constant="16" id="pp8-93-GAC"/>
+                <constraint firstItem="AS5-PL-9Rq" firstAttribute="leading" secondItem="m56-en-O1n" secondAttribute="trailing" constant="-87" id="ue8-Dm-owQ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="340" height="120"/>
+            <connections>
+                <outlet property="deskriptionFlower" destination="nIz-zN-wgD" id="Wgb-hJ-8OY"/>
+                <outlet property="imageFlower" destination="m56-en-O1n" id="TlW-9C-fUN"/>
+                <outlet property="likeButton" destination="txm-kE-fcu" id="bEu-mr-hdB"/>
+                <outlet property="nameFlower" destination="XRq-kK-Fbo" id="H5B-rT-MRO"/>
+                <outlet property="priceFlower" destination="iat-1Q-rcK" id="bbR-rj-PKl"/>
+                <outlet property="viewLayer" destination="AS5-PL-9Rq" id="E00-um-N9T"/>
+            </connections>
+            <point key="canvasLocation" x="124.6376811594203" y="71.651785714285708"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="heart_grey" width="78" height="72"/>
+        <image name="plants" width="1587" height="1190.5"/>
+    </resources>
+</document>
