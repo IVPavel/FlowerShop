@@ -38,6 +38,7 @@
 		5C80F870228DA95700734D8E /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C80F86F228DA95700734D8E /* ChooseViewController.swift */; };
 		5C80F873228DBC8100734D8E /* Flower.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C80F872228DBC8100734D8E /* Flower.xcassets */; };
 		5CD891CC22A14DC600FC96B1 /* TopSectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD891CB22A14DC600FC96B1 /* TopSectionVC.swift */; };
+		5CE7471723402BC500F0B4AF /* flower.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CE7471623402BC500F0B4AF /* flower.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		5C80F86F228DA95700734D8E /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChooseViewController.swift; path = FlowerShop/Controller/ChooseViewController.swift; sourceTree = SOURCE_ROOT; };
 		5C80F872228DBC8100734D8E /* Flower.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Flower.xcassets; sourceTree = "<group>"; };
 		5CD891CB22A14DC600FC96B1 /* TopSectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TopSectionVC.swift; path = FlowerShop/Controller/MainWindow/TopSection/TopSectionVC.swift; sourceTree = SOURCE_ROOT; };
+		5CE7471623402BC500F0B4AF /* flower.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = flower.json; path = FlowerShop/flower.json; sourceTree = SOURCE_ROOT; };
 		96A5910549BAB8F5F3CB9C46 /* Pods-FlowerShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerShop.debug.xcconfig"; path = "Target Support Files/Pods-FlowerShop/Pods-FlowerShop.debug.xcconfig"; sourceTree = "<group>"; };
 		D8C7680E3D763B9AE1EA8C86 /* Pods_FlowerShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowerShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -140,6 +142,7 @@
 				5C375340229D46AF00B46C52 /* Assets.xcassets */,
 				5C80F872228DBC8100734D8E /* Flower.xcassets */,
 				5C26F083228D694800CE4E59 /* Info.plist */,
+				5CE7471623402BC500F0B4AF /* flower.json */,
 			);
 			path = FlowerShop;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				5C80F842228D86FF00734D8E /* CollectionViewCell.xib in Resources */,
 				5C26DE6822A07D6700FADAC1 /* OrderPackagCell.xib in Resources */,
 				5C375341229D46B000B46C52 /* Assets.xcassets in Resources */,
+				5CE7471723402BC500F0B4AF /* flower.json in Resources */,
 				5C26F07D228D694600CE4E59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
