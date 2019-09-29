@@ -11,7 +11,7 @@ import Foundation
 class NetworkServices {
     
     class func loadJSONData(complition: @escaping(ListFlower?, Error?) -> Void) {
-        guard let url = URL(string: "https://gitlab.com/pavel.ivanov.1995/data/raw/master/flower.json") else { return }
+        guard let url = URL(string: "https://raw.githubusercontent.com/IVPavel/FlowerShop/d8e44d1bedbe43ede28cd6b363c7d9dd251a07cc/FlowerShop/flower.json") else { return }
         URLSession.shared.dataTask(with: url) { (data, _, error) in
             if let error = error {
                 print(error)
